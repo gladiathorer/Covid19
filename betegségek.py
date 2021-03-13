@@ -18,3 +18,6 @@ rendezett = {k: v for k, v in sorted(betegségSzámok.items(), key=lambda item: 
 for i in rendezett:
     if betegségSzámok[i] > 100:
         print("{} betegség {} alkalommal ({:.2f} százalék)".format(i, betegségSzámok[i], betegségSzámok[i]/össz))
+'''
+Jó ötlet, mondjuk ha megnézed az outputját, akkor látszik, hogy van benne egy két dolog amit fejleszteni lehetne, mondjuk regexel :)
+'''
